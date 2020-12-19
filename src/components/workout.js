@@ -29,7 +29,7 @@ export default function Timer() {
                     <Carousel.Item interval={10000}>
                         <img
                         className="d-block w-100"
-                        src="https://images.unsplash.com/photo-1557564437-0995702f88fc?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTB8fHdvcmtvdXR8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+                        src={pushups[2]}
                         alt="Push Ups"
                         />
                         <Carousel.Caption>
@@ -41,7 +41,7 @@ export default function Timer() {
                     <Carousel.Item>
                         <img
                         className="d-block w-100"
-                        src="https://images.unsplash.com/photo-1557564437-0995702f88fc?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTB8fHdvcmtvdXR8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+                        src={pullups[2]}
                         alt="Pull ups"
                         />
                         <Carousel.Caption>
@@ -53,7 +53,7 @@ export default function Timer() {
                     <Carousel.Item>
                         <img
                         className="d-block w-100"
-                        src="https://images.unsplash.com/photo-1557564437-0995702f88fc?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTB8fHdvcmtvdXR8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+                        src={squats[2]}
                         alt="Squats"
                         />
                         <Carousel.Caption>
@@ -65,7 +65,7 @@ export default function Timer() {
                     <Carousel.Item>
                         <img
                         className="d-block w-100"
-                        src="https://images.unsplash.com/photo-1557564437-0995702f88fc?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTB8fHdvcmtvdXR8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+                        src={lunges[2]}
                         alt="Lunges"
                         />
                         <Carousel.Caption>
