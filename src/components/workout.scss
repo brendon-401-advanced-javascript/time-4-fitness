@@ -1,16 +1,12 @@
-#workout {
-    display: flex;
-    justify-content: space-evenly;
-    
+
+#carousel{
+    margin: auto;
+    max-width: 70% !important;
+    max-height: 70% !important;
 }
 
 .timer {
-    h1 {
-        margin: 30px 0;
-        text-align: center;
-    }
     Button {
-        display: block;
-        margin: 10px auto;  
+         
     }
 }
