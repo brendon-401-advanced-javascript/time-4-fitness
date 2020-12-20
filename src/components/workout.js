@@ -14,7 +14,7 @@ export default function Timer() {
     const lunges = useSelector( state => state.lunges);
 
     return (
-        <div className='timer'>
+        <div className='Jumbotron'>
             <Jumbotron fluid>   
                 <Container>
                     <h1>Time-4-Fitness</h1>
@@ -24,7 +24,7 @@ export default function Timer() {
                 </Container>
             </Jumbotron>
 
-            <div id=''>
+            <div id='carousel'>
                 <Carousel>
                     <Carousel.Item interval={10000}>
                         <img

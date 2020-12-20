@@ -18,7 +18,7 @@ export default function Timer (props) {
                 {isRunning ? (
                     <Button onClick={pause} variant="outline-danger">Stop</Button>
                 ) : (
-                    <Button onClick={start} variant="outline-success">Start</Button>
+                    <Button onClick={start} variant="info">Start</Button>
                 )}
             </div>
         </React.Fragment>
